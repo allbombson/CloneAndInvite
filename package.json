@@ -1,0 +1,16 @@
+{
+  "name": "repoclone",
+  "version": "0.0.1",
+  "description": "Clones repos and adds contributors",
+  "license": "MIT",
+  "bin": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/cli.js",
+    "pretest": "npm run build",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
