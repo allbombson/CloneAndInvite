@@ -12,5 +12,9 @@
   },
   "devDependencies": {
     "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "octokit": "^1.7.1",
+    "simple-git": "^3.7.1"
   }
 }
